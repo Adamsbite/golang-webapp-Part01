@@ -10,7 +10,7 @@ const portNumber = ":8080"
 
 // Home is the handler for the home page
 func Home(w http.ResponseWriter, r *http.Request) {
-	renderTemplate(w, "home.page.html")
+	renderTemplate(w, "home.page.html") 
 }
  
 // About is the handler for the about page
